@@ -20,5 +20,11 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 def Home(request):
     return render_to_response('main/index.html',locals(),RequestContext(request))
 
+def About(request):
+    return render_to_response('main/about.html',locals(),RequestContext(request))
+
+def Contact(request):
+    return render_to_response('main/contact.html',locals(),RequestContext(request))
+
 
 
