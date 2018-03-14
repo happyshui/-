@@ -23,8 +23,6 @@ def Home(request):
 def About(request):
     return render_to_response('main/about.html',locals(),RequestContext(request))
 
-def Contact(request):
-    return render_to_response('main/contact.html',locals(),RequestContext(request))
 
 
 
